@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'index.html' %}
+{% load static %}
+<head>
+
+
+
+<title>{% block title %} booking confirmation {% endblock %}</title>
+{% block content %}
+    <h1 class="text-center"style="color:black"> BOOKING CONFIRMATION</h1>
+
+    <div class="alert alert-info" role="alert">
+  We have received your appointment,Our representative will call u soon!
+</div>
+    {% endblock %}
