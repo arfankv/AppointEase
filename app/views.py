@@ -49,6 +49,7 @@ def doctors(request):
     return render(request, 'doctors.html', dict_doct)
 
 
+
 def register(request):
     if request.method == 'POST':
         username = request.POST['Username']
